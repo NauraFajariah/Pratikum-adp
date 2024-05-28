@@ -13,7 +13,7 @@ if __name__ == "__main__":
 def print_colored_block(color):
     print(color + '  ' + style('reset'), end='')
 
-def windows_logo():
+def visa_logo():
     blue = back('blue')
     white = back('white')
     yellow = back('yellow')
@@ -43,4 +43,4 @@ def windows_logo():
         print()
 
 if __name__ == "__main__":
-    windows_logo()
+    visa_logo()
